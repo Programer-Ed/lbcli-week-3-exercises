@@ -8,5 +8,5 @@ transaction="01000000000101c8b0928edebbec5e698d5f86d0474595d9f6a5b2e4e3772cd9d10
 # bitcoin-cli -regtest decoderawtransaction "$transaction"
 
 bitcoin-cli -regtest createpsbt \
-'[{"txid":"23c19f37d4e92e9a115aab86e4edc1b92a51add4e0ed0034bb166314dde50e16","vout":0,"sequence":4294967293}]' \
+'[{"txid":"23c19f37d4e92e9a115aab86e4edc1b92a51add4e0ed0034bb166314dde50e16","vout":0,"sequence":4294967293},{"txid":"23c19f37d4e92e9a115aab86e4edc1b92a51add4e0ed0034bb166314dde50e16","vout":0,"sequence":4294967293}]' \
 '{"2MvLcssW49n9atmksjwg2ZCMsEMsoj3pzUP":0.20000000}'
